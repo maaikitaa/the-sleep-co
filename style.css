@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* temporary styles for structuoral html*/
+*{
+    padding: 0.5rem;
+    border: 2px solid rgb(223,223,223);
+}
+
+body { border: none; }
+html {border: none; }
+
+/* image styles */
+.bg-image {
+    background-image: url('/images/thesleepco-dog.jpg');
+    background-size: cover;
+    min-height: 10rem;
+}
+
+/* universal styles & utility classes */
+
+.padded         { padding: 5%;}
+.padded-small   { padding: 1 rem;}
+
+.bg-dark { 
+    background-color: #192B37;
+    text-color: white;
+}
+
